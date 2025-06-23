@@ -5,7 +5,7 @@ const ZapShiftLogo = () => {
     return (
         <div className='flex items-end'>
             <img className='mb-1' src={logo} alt="" />
-            <p className='text-3xl font-bold -ml-2'>Zap-Shift</p>
+            <p className='text-3xl font-extrabold -ml-2'>Zap-Shift</p>
         </div>
     );
 };
