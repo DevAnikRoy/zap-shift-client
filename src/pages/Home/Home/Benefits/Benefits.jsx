@@ -1,8 +1,8 @@
 import React from 'react';
+import tracking from '../../../../assets/bennifints/live-tracking.png';
+import support from '../../../../assets/bennifints/authImage.png';
+import call from '../../../../assets/bennifints/safe-delivery.png';
 import BenefitCard from './BenefitCard';
-import tracking from '../../../assets/benefits/tracking.png';
-import call from '../../../assets/benefits/call.png';
-import support from '../../../assets/benefits/support.png';
 
 const benefits = [
   {
@@ -35,7 +35,7 @@ const Benefits = () => {
         <h2 className="text-3xl font-bold text-center mb-12">Why Choose Us</h2>
         <div className="flex flex-col gap-6">
           {benefits.map((benefit) => (
-            <BenefitCard key={benefit.id} {...benefit} />
+            <BenefitCard key={benefit.id} {...benefit}></BenefitCard>
           ))}
         </div>
       </div>
