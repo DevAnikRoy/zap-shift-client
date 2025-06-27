@@ -17,7 +17,7 @@ const ClientLogosMarquee = () => {
     <section className="py-10 bg-gray-100">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-2xl text-primary font-bold text-center mb-12">Trusted by Leading Brands</h2>
-        
+
         <Marquee pauseOnHover speed={80} gradient={false}>
           {logos.map((logo, idx) => (
             <div key={idx} className="mx-15 flex items-center">
