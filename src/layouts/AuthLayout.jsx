@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router';
 import authImg from '../assets/authImage.png'
-import ProFastLogo from '../pages/shared/ProFastLogo/ProFastLogo';
+import ProFastLogo from '../../src/pages/Home/Home/shared/ZapShiftLogo/ZapShiftLogo';
 
 const AuthLayout = () => {
     return (
